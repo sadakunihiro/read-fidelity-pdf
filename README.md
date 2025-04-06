@@ -5,7 +5,7 @@
 
 実行例:
 ```
-$ python3 read-fidelity-pdf.py ~/docs/Fidelity
+$ python3 read-fidelity-pdf.py ~/docs/Fidelity/
 種類,日付,名前,価格,税金
 配当,2023/08/31,FIDELITY GOVERNMENT CASH RESERVES,4.28,0.0
 配当,2024/09/30,ABC COM,29.68,2.97
