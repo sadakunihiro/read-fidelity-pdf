@@ -1,7 +1,7 @@
 # read-fidelity-pdf
 
 
-Fidelity からダウンロードした Statement PDF ファイルを一括で読んで CSV 出力するプログラム。
+Fidelity からダウンロードした複数の Statement PDF ファイルを一括で読んで CSV 出力するプログラム。
 実行例:
 ```
 $ python3 read-fidelity-pdf.py ~/docs/Fidelity
