@@ -1,4 +1,4 @@
-# read-fidelity-pdf
+# read-fidelity-pdf.py <directory>
 
 
 Fidelity からダウンロードした複数の Statement PDF ファイルを一括で読んで CSV 出力するプログラム。引数の Statement PDF ファイルのあるフォルダを指定。
