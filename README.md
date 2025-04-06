@@ -1,7 +1,7 @@
-# read-fidelity-pdf.py <directory>
+# read-fidelity-pdf.py
 
 
-Fidelity からダウンロードした複数の Statement PDF ファイルを一括で読んで CSV 出力するプログラム。引数の Statement PDF ファイルのあるフォルダを指定。
+Fidelity からダウンロードした複数の Statement PDF ファイルを一括で読んで CSV 出力するプログラム。引数に Statement PDF ファイルのあるフォルダを指定。
 
 実行例:
 ```
