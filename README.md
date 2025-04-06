@@ -1,5 +1,6 @@
 # read-fidelity-pdf
 
+
 Fidelity からダウンロードした Statement PDF ファイルを一括で読んで CSV 出力するプログラム。
 実行例:
 ```
@@ -17,3 +18,6 @@ $ python3 read-fidelity-pdf.py ~/docs/Fidelity
 ```
 $ pip3 install pypdf
 ```
+おすすめポイント:
+- 確定申告の時に1つづつ Statement PDF ファイルを読まなくてよい。
+- Statement PDF は配当や売買の情報が「月/日」の日付だけどページトップにある年情報を加えてるので「年/月/日」で配当や売買レコードを扱える。
