@@ -40,8 +40,8 @@ def read_pdf(page):
 
 if __name__ == "__main__":
     logging.getLogger("pypdf").setLevel(logging.ERROR) # pypdf の Warning 出力を抑止
-    path = sys.argv[1] if (len(sys.argv) == 2) else '.'
-    [[read_pdf(page) for page in PdfReader(file).pages] for file in glob.glob(path + '/*.pdf')]
+    paths = ['.'] if len(sys.argv) == 1 else sys.argv[1:]
+    [[[read_pdf(page) for page in PdfReader(file).pages] for file in glob.glob(path + '/*.pdf')] for path in paths]
     print('種類,日付,名前,価格,税金')
     [print('配当',d['date'],d['name'],d['price'],d['tax'],sep=',') for d in div]
     print('\n種類,日付,名前,量,価格,総コスト,取引コスト,総額,損益')
